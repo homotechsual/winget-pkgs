@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.defaultLocale.1.9.0.schema.json
+
+PackageIdentifier: GAM-Team.GAM
+PackageVersion: '7.02.00'
+PackageLocale: en-US
+Publisher: Jay Lee - jay0lee@gmail.com
+PublisherUrl: https://github.com/GAM-team
+PublisherSupportUrl: https://github.com/GAM-team/GAM/issues
+PackageName: GAM
+PackageUrl: https://github.com/GAM-team/GAM
+License: Apache-2.0
+LicenseUrl: https://github.com/GAM-team/got-your-back/blob/HEAD/LICENSE
+ShortDescription: GAM is a command line tool for Google Workspace admins to manage domain and user settings quickly and easily.
+Moniker: GAM
+ReleaseNotes: |-
+  - Improved the error message displayed for user service account access commands when: The API is not enabled, The user does not exist, The user exists but is in a OU where the service is disabled.
+ReleaseNotesUrl: https://github.com/GAM-team/GAM/releases/tag/v7.02.00
+ManifestType: defaultLocale
+ManifestVersion: 1.9.0

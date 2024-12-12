@@ -1,0 +1,27 @@
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.9.0.schema.json
+
+PackageIdentifier: GAM-Team.GAM
+PackageVersion: '7.02.00'
+InstallerType: msi
+ReleaseDate: 2024-12-07
+Installers:
+- Architecture: x64
+  InstallerUrl: https://github.com/GAM-team/GAM/releases/download/v7.02.00/gam-7.02.00-windows-x86_64.msi
+  InstallerSha256: DFA9FF29DCA4EA6323D98C2885D59AD9C5AC65A67AE8311DBD7213521CF33FAD
+ManifestType: installer
+ManifestVersion: 1.9.0
+Tags:
+- console
+- command-line
+- Google
+- Workspace
+- Google Workspace
+- admin tools
+- cli
+- cmd
+- powershell
+- ps
+- terminal
+- shell
+- utilities
+- developer tools
